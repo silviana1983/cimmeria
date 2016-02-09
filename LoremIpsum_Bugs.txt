@@ -1,0 +1,121 @@
+Bug 1: The website generates 5 words and displays the text "5 words,
+27 bytes" as part of the output message, after performing the
+following steps:
+
+1. Select "words" radiobutton 2. Type (1 to 4) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button --- This behavior
+occurs regardless of the fact that the checkbox "Start with 'Lorem
+ipsum dolor sit amet...' " is checked or not
+
+Bug 2: The website generates 5 words and displays the text "5 words,
+27 bytes" as part of the output message, after performing the
+following steps:
+
+1. Select "bytes" radiobutton 2. Type (1 to 26) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button --- This behavior
+occurs regardless of the fact that the checkbox "Start with 'Lorem
+ipsum dolor sit amet...' " is checked or not
+
+Bug 3: The website generates a quantity of text bytes larger than the
+quantity entered in the counter textbox, as long as this quantity
+ranges from 1 to 26, after performing the following steps:
+
+1. Select "bytes" radiobutton 2. Type (1 to 26) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 4: The website generates text after entering a negative integer
+number into the counter input textbox, as specified in the following
+scenarios:
+
+Bug 4.1: The website generates 5 paragraphs and displays the text
+"Generated 5 paragraphs" as part of the output message, after
+performing the following steps:
+
+1. Select "paragraphs" radiobutton 2. Type (-1) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button --- This behavior
+occurs regardless of the fact that the checkbox "Start with 'Lorem
+ipsum dolor sit amet...' " is checked or not
+
+Bug 4.2: The website generates 1 paragraph and displays the text
+"Generated 1 paragraph, 5 words, 27 bytes " as part of the output
+message, after performing the following steps:
+
+1. Select "words" radiobutton 2. Type (-1) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 4.3: The website generates 1 paragraph and displays the text
+"Generated 1 paragraph, 5 words, 27 bytes" as part of the output
+message, after performing the following steps:
+
+1. Select "bytes" radiobutton 2. Type (-1) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 4.4: The website generates 5 paragraph and displays the text
+"Generated 5 paragraphs " as part of the output message, after
+performing the following steps:
+
+1. Select "lists" radiobutton 2. Type (-1) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 5: The website generates text after entering number zero into the
+counter input textbox, as specified in the following scenarios:
+
+Bug 5.1: The website generates 5 paragraphs and displays the text
+"Generated 5 paragraphs " as part of the output message, after
+performing the following steps:
+
+1. Select "paragraphs " radiobutton 2. Type (0) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 5.2: The website generates 1 paragraph and displays the text
+"Generated 1 paragraph, 5 words, 27 bytes" as part of the output
+message, after performing the following steps:
+
+1. Select "words" radiobutton 2. Type (0) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 5.3: The website generates 1 paragraph and displays the text
+"Generated 1 paragraph, 5 words, 27 bytes" as part of the output
+message, after performing the following steps:
+
+1. Select "bytes" radiobutton 2. Type (0) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 5.4: The website generates 5 paragraphs and displays the text
+"Generated 5 paragraphs" as part of the output message, after
+performing the following steps:
+
+1. Select "lists" radiobutton 2. Type (0) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 6: The website generates text after entering non numeric values
+into the counter input textbox, as specified in the following
+scenarios:
+
+Bug 6.1: The website generates 5 paragraphs and displays the text
+"Generated 5 paragraphs" as part of the output message, after
+performing the following steps:
+
+1. Select "paragraphs" radiobutton 2. Type (abcd) into the counter
+input textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 6.2: The website generates 1 paragraph and displays the text
+"Generated 1 paragraph, 5 words, 27 bytes" as part of the output
+message, after performing the following steps:
+
+1. Select "words" radiobutton 2. Type (abcd) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 6.3: The website generates 1 paragraph and displays the text
+"Generated 1 paragraph, 5 words, 27 bytes" as part of the output
+message, after performing the following steps:
+
+1. Select "bytes" radiobutton 2. Type (abcd) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
+
+Bug 6.4: The website generates 5 paragraphs and displays the text
+"Generated 5 paragraphs" as part of the output message, after
+performing the following steps:
+
+1. Select "lists" radiobutton 2. Type (abcd) into the counter input
+textbox 3. Click "Generate Lorem Ipsum" button
